@@ -1,0 +1,20 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-radius: 8px;
+  background-color: #dbdbdb;
+}
+
+input {
+  width: 350px;
+}
+
+.btn {
+  width: 250px;
+  margin-left: 18px;
+}
+
+.description {
+  width: 800px;
+}

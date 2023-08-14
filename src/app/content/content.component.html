@@ -1,0 +1,12 @@
+<main class="d-flex align-items-center mt-5">
+  <div class="d-flex flex-column p-4 box-input">
+    <input type="text" class="m-3 form-control" placeholder="Digite o seu peso">
+    <input type="text" class="m-3 form-control" placeholder="Digite a sua altura">
+
+    <button type="button" class="btn btn-outline-warning m-3">Calcular</button>
+  </div>
+
+  <div class="p-4 description">
+    <ng-content select=".description-imc"></ng-content>
+  </div>
+</main>
